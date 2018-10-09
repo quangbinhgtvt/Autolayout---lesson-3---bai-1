@@ -8,13 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LoginController: UIViewController {
+    
+    //outlets
+    @IBOutlet weak var labelFont1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+ 
     }
 
-
+    @IBAction func clickLoginbutton(_ sender: Any) {
+        self.performSegue(withIdentifier: "showTitle", sender: self)
+    }
+    
 }
 

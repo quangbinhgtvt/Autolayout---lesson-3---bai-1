@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678883272168668C00083976 /* TitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678883262168668C00083976 /* TitleController.swift */; };
 		67A2F5A521678282008EA4F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2F5A421678282008EA4F7 /* AppDelegate.swift */; };
-		67A2F5A721678282008EA4F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2F5A621678282008EA4F7 /* ViewController.swift */; };
+		67A2F5A721678282008EA4F7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2F5A621678282008EA4F7 /* LoginController.swift */; };
 		67A2F5AA21678282008EA4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A2F5A821678282008EA4F7 /* Main.storyboard */; };
 		67A2F5AC21678283008EA4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A2F5AB21678283008EA4F7 /* Assets.xcassets */; };
 		67A2F5AF21678283008EA4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A2F5AD21678283008EA4F7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		678883262168668C00083976 /* TitleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleController.swift; sourceTree = "<group>"; };
 		67A2F5A121678282008EA4F7 /* Autolayout - lesson 3 - bai 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autolayout - lesson 3 - bai 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A2F5A421678282008EA4F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67A2F5A621678282008EA4F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A2F5A621678282008EA4F7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		67A2F5A921678282008EA4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67A2F5AB21678283008EA4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67A2F5AE21678283008EA4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				67A2F5A421678282008EA4F7 /* AppDelegate.swift */,
-				67A2F5A621678282008EA4F7 /* ViewController.swift */,
+				67A2F5A621678282008EA4F7 /* LoginController.swift */,
 				67A2F5A821678282008EA4F7 /* Main.storyboard */,
 				67A2F5AB21678283008EA4F7 /* Assets.xcassets */,
 				67A2F5AD21678283008EA4F7 /* LaunchScreen.storyboard */,
 				67A2F5B021678283008EA4F7 /* Info.plist */,
+				678883262168668C00083976 /* TitleController.swift */,
 			);
 			path = "Autolayout - lesson 3 - bai 1";
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A2F5A721678282008EA4F7 /* ViewController.swift in Sources */,
+				678883272168668C00083976 /* TitleController.swift in Sources */,
+				67A2F5A721678282008EA4F7 /* LoginController.swift in Sources */,
 				67A2F5A521678282008EA4F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Autolayout - lesson 3 - bai 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Autolayout---lesson-3---bai-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Autolayout - lesson 3 - bai 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "quangbinh.Autolayout---lesson-3---bai-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
